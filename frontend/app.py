@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = API_URL = "https://smart-shopper-agent.onrender.com/chat"
 
 st.set_page_config(page_title="Smart Shopper Agent", page_icon="🛍️")
 
